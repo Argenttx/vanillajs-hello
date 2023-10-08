@@ -25,5 +25,7 @@ window.onload = function() {
     " " +
     when[Math.floor(Math.random() * when.length)];
 
+  document.getElementById("excuse").innerHTML = excuse;
+
   console.log("Hello Rigo from the console!");
 };
